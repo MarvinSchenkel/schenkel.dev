@@ -9,6 +9,8 @@ jobs:
     steps:
       - uses: actions/checkout@v3
         name: Checkout repo
+        with:
+          submodules: true 
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
         with:
