@@ -13,7 +13,7 @@ jobs:
     - uses: ryank90/action-hugo-firebase-deploy@master
       with:
         firebase-token: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_SCHENKELDEV }}
-        hugo-params: -D // Optional. Any params for the `hugo` command. [Refer doc here](https://gohugo.io/commands/hugo/)
+        hugo-params: -D
       # - uses: actions/checkout@v2
       # - uses: FirebaseExtended/action-hosting-deploy@v0
       #   with:
