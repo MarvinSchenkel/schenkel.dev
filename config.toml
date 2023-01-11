@@ -149,7 +149,7 @@ disable404 = true
         dates = "Nov 2021 - Present"
         company = "Nationale Nederlanden, The Hague"
         details = "As a Lead Data Engineer at NN, I have been involved in the NNDAP project (NN Data Analytics Platform). NNDAP is a microservices based software product that aims to provide a data platform blueprint for every business unit of NN, maximising efficiency and minimising repetitive work. With NNDAP, business units can easily provision a brand new data platform and deploy modules to it, such as a Data Extraction module, Data Ingestion module, Data Quality module and many more. All the modules can be flexibly configured via config-as-code, making sure deployment from development all the way to production is a breeze. Furthermore, NNDAP is proudly part of the 'Innersourcing' initiative (open-source within NN), allowing all engineers to contribute to the codebase of NNDAP."
-        skills = "Azure, Python, fastapi, great_expectations, Azure Data Factory, Azure Databricks, Azure Functions, Docker, Azure Pipelines"
+        skills = "Azure, Python, fastapi, great_expectations, Azure Data Factory, Azure Databricks, Terraform, Azure Functions, Docker, Azure Pipelines"
 
         [[params.jobs.list]]
         position = "Lead Data Engineer (via Riviq)"
