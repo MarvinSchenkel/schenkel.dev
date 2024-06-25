@@ -32,7 +32,7 @@ disable404 = true
     # Profile section
     [params.profile]
         name = "Marvin Schenkel"
-        tagline = "Data Engineer"
+        tagline = ""
         avatar = "marvin.png"
 
     # Contact section
@@ -90,6 +90,10 @@ disable404 = true
         title = "Certificates"
 
         [[params.certificates.list]]
+        certificate = "Databricks Lakehouse Fundamentals"
+        college = "Databricks"
+
+        [[params.certificates.list]]
         certificate = "Microsoft Certified: Azure Data Engineer Associate"
         college = "Microsoft"
 
@@ -136,7 +140,7 @@ disable404 = true
         enable = true
         icon = "fa-user"
         title = "About me"
-        summary = "I remember my first computer experience: sitting on my dad's lap as a 6-year-old and typing basic DOS-commands like `cd games` to start my favourite games. Now, 25-ish years later I am still using those commands to find my way while building data solutions. My passion is working on challenging data solutions in cloud environments, trying to apply software engineering best practices to everything I do. I have over 12 years of experience working on data engineering, data science and BI related projects for various clients in both Europe and Australia, such as Ahold Delhaize, Nationale-Nederlanden, Transavia, ASSA ABLOY and Jetstar Airways (AU)."
+        summary = "I remember my first computer experience: sitting on my dad's lap as a 6-year-old and typing basic DOS-commands like `cd games` to start my favourite games. Now, 25-ish years later I am still using those commands to find my way while building data solutions. My passion is working on challenging data solutions in cloud environments, trying to apply software engineering best practices to everything I do. I have over 12 years of experience working on data (platform) engineering, data science and BI related projects for various clients in both Europe and Australia, such as Ahold Delhaize, Nationale-Nederlanden, Transavia, ASSA ABLOY and Jetstar Airways (AU)."
 
     # Experiences section
     [params.experiences]
