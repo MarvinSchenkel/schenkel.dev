@@ -112,64 +112,53 @@ googleAnalytics = "UA-XXXXXXX-Y"
         enable = true
 
         [[params.experience.list]]
-        title = "Senior Software Engineer"
-        dates = "2019 - Present"
-        company = "Google"
-        details = "Role description goes here ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Donec pede justo, fringilla vel. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis."
-        
-        [[params.experience.list.items]]
-        details = "Lorem ipsum dolor sit amet, consectetuer."
-        
-        [[params.experience.list.items]]
-        details = "Aenean commodo ligula eget dolor."
-        
-        [[params.experience.list.items]]
-        details = "Etiam ultricies nisi vel augue."
+        title = "Lead Data Platform Engineer (freelance)"
+        dates = "Feb 2023 - Present"
+        company = "Ahold Delhaize, Zaandam"
+        details = "Ahold Delhaize are a leader in supermarkets, and e-commerce and a company at the forefront of sustainable retailing. Each of their brands shares a passion for delivering great food, value and innovations. At Ahold Delhaize I am part of a team that builds the core self-service data platform. We have many customers, such as Albert Heijn, Gall&Gall and Etos, that use our platform to easily ingest and transform their data in a config-driven way to process billions of rows on a daily basis. It has been my role to lead and coach the team, provide designs and solution architecture for new features and, of course, also engineer them."
+        skills = "Azure, Python, Azure Databricks, Terraform, Spark, Github"
 
         [[params.experience.list]]
-        title = "Lead Software Developer"
-        dates = "2016 - 2019"
-        company = "Apple"
-        details = "Role description goes here ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Donec pede justo, fringilla vel."
-        [[params.experience.list.items]]
-        details = "Lorem ipsum dolor sit amet, consectetuer."
-        [[params.experience.list.items]]
-        details = "Aenean commodo ligula eget dolor."
+        title = "Lead Data Platform Engineer (via Riviq)"
+        dates = "Nov 2021 - Jan 2023"
+        company = "Nationale Nederlanden, The Hague"
+        details = "As a Lead Data Platform Engineer at NN, I have been involved in the NNDAP project (NN Data Analytics Platform). NNDAP is a microservices based software product that aims to provide a data platform blueprint for every business unit of NN, maximising efficiency and minimising repetitive work. With NNDAP, business units can easily provision a brand new data platform and deploy modules to it, such as a Data Extraction module, Data Ingestion module, Data Quality module and many more. All the modules can be flexibly configured via config-as-code, making sure deployment from development all the way to production is a breeze. Furthermore, NNDAP is proudly part of the 'Innersourcing' initiative (open-source within NN), allowing all engineers to contribute to the codebase of NNDAP."
+        skills = "Azure, Python, fastapi, great_expectations, Azure Data Factory, Azure Databricks, Terraform, Azure Functions, Docker, Azure Pipelines"
 
         [[params.experience.list]]
-        title = "Senior Software Developer"
-        dates = "2014 - 2016"
-        company = "Dropbox"
-        details = "Role description goes here ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus."
+        title = "Lead Data Engineer (via Riviq)"
+        dates = "Mar 2020 - Nov 2021"
+        company = "Transavia, Amsterdam"
+        details = "At Transavia, I have coached a team of data engineers and scientists at building a professional data platform using a broad range of products in Microsoft Azure. Some of the highlights of this project were introducing dbt to take care of the business logic in the data warehouse, migrating Airflow to Azure Kubernetes Service and setting up an MLOps framework to help the data scientists to easily deploy their ML models into production."
+        skills = "Azure, Python, Airflow, dbt, Azure ML, Bicep, Azure Data Factory, Azure Databricks, Azure Kubernetes Service, Data modeling, Azure Pipelines"
 
         [[params.experience.list]]
-        title = "Senior Developer"
-        dates = "2013 - 2014"
-        company = "Uber"
-        details = "Role description goes here ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus."
+        title = "Lead Data Engineer"
+        dates = "Feb 2020 - Jan 2023"
+        company = "Riviq, The Hague"
+        details = "Riviq is a consultancy company that help its clients to transform data into valuable insights. As a Lead Data Engineer I am involved in various data related projects, fulfilling roles such as Lead Data Engineer, Senior Data Engineer and Solution architect."
 
         [[params.experience.list]]
-        title = "Backend Developer"
-        dates = "2014 - 2016"
-        company = "Amazon"
-        details = "Role description goes here ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus."
+        title = "Data Scientist"
+        dates = "Apr 2019 - Feb 2020"
+        company = "Performation, Bilthoven"
+        details = "Performation HOTflo is specialised in data solutions for hospitals. The heart of these data solutions is the data gateway: a data warehouse that connects multiple source systems in a standardized way. This is where I came in, it was my task to design, develop and use an AI platform on top of the data gateway. This platform enabled us data scientist to easily access various sources of data for building our predictive models."
+        skills = "Python, SQL Server, Docker, Jupyter Hub, Various ML modeling techniques"
 
         [[params.experience.list]]
-        title = "Frontend Developer"
-        dates = "2013 - 2014"
-        company = "Startup"
-        details = "Role description goes here ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus."
+        title = "Senior Information Management Consultant"
+        dates = "Apr 2016 - Jan 2018"
+        company = "Infoready, Melbourne, Australia"
+        details = "As a Senior IM Consultant, I have been involved in a wide range of data integration-, data warehousing- and data science-related projects where I took on various roles like technical engineer, technical team lead, modeler, architect and business analyst. Besides this, I also helped our sales colleagues with pre-sales work."
+        skills = "Azure, AWS, SQL Server, MSBI Stack: SSIS, SSAS, SSRS, BIML, Power BI, Data modeling"
 
-
-
-
-
-
-
-
-
-
-
+        [[params.experience.list]]
+        title = "Data Solutions (BI) Consultant"
+        dates = "Jul 2012 - Apr 2016, Jan 2018 - Apr 2019"
+        company = "Info Support, Veenendaal"
+        details = "As a Data Solutions (BI) Consultant at Info Support, I participated in various data warehousing projects for a wide variety of clients."
+        skills = "SQL Server, MSBI Stack: SSIS, SSAS, SSRS, BIML, Data Vault"
+    
     [params.projects]
         enable = true
 
