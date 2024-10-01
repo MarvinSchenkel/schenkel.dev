@@ -3,13 +3,13 @@
 baseURL = "/"
 languageCode = "en"
 title = "Marvin Schenkel"
-theme = "hugo-devresume-theme"
+theme = "devresume"
 googleAnalytics = "UA-XXXXXXX-Y"
 
 [params]
     author = "Marvin Schenkel"
     description = "Marvin Schenkel CV"
-    primaryColor = "#54B689"
+    primaryColor = "#357F74"
     textPrimaryColor = "#292929"
 
     [params.profile]
@@ -37,36 +37,21 @@ googleAnalytics = "UA-XXXXXXX-Y"
         url = "//schenkel.dev"
         text = "www.schenkel.dev"
         
-    [params.skills]
-        enable = true
+   [params.certificates]
+        enable = true 
+        title = "Certificates"
 
-        [[params.skills.list]]
-        title = "Technical"
-        [[params.skills.list.items]]
-        details = "JavaScript/Angular/React/Vue"
-        [[params.skills.list.items]]
-        details = "Python/Ruby/PHP"
-        [[params.skills.list.items]]
-        details = "Node.js/ASP.NET"
-        [[params.skills.list.items]]
-        details = "PostgreSQL/MySQL"
-        [[params.skills.list.items]]
-        details = "Object-oriented design"
-        [[params.skills.list.items]]
-        details = "Design and implement database structures"
-        [[params.skills.list.items]]
-        details = "Lead and deliver complex software systems"
+        [[params.certificates.list]]
+        certificate = "Databricks Lakehouse Fundamentals"
+        college = "Databricks"
 
-        [[params.skills.list]]
-        title = "Professional"
-        [[params.skills.list.items]]
-        details = "Effective communication"
-        [[params.skills.list.items]]
-        details = "Team player"
-        [[params.skills.list.items]]
-        details = "Strong problem solver"
-        [[params.skills.list.items]]
-        details = "Good time management"
+        [[params.certificates.list]]
+        certificate = "Microsoft Certified: Azure Data Engineer Associate"
+        college = "Microsoft"
+
+        [[params.certificates.list]]
+        certificate = "Coursera: Machine Learning"
+        college = "Coursera"
 
     [params.education]
         enable = true 
@@ -161,21 +146,25 @@ googleAnalytics = "UA-XXXXXXX-Y"
     
     [params.projects]
         enable = true
+        intro = "In my free time I like to spend time automating my home or contributing to open-source projects. This is an overview of open-source projects I set up myself or am actively involved in."
 
         [[params.projects.list]]
-        title = "Project Lorem Ipsum"
-        meta = "Open Source"
-        tagline = "You can use this section for your side projects. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus."
+        title = "Home Assistant"
+        meta = "Open source"
+        url = "https://github.com/MarvinSchenkel/home-assistant-config"
+        tagline = "I use Home Assistant to build my smart home. This repository contains my Home Assistant configuration, which everyone can use to get inspired to start automating their homes."
 
         [[params.projects.list]]
-        title = "Project Sed Fringilla"
-        meta = "Open Source"
-        tagline = "You can use this section for your side projects. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim."
+        title = "Music Assistant"
+        meta = "Open source"
+        url = "https://github.com/music-assistant/hass-music-assistant"
+        tagline = "Music Assistant turns any Home Assistant instance into a jukebox, hassle free streaming of your favourite media to Home Assistant media players."
 
         [[params.projects.list]]
-        title = "Project Praesent"
-        meta = "Open Source"
-        tagline = "You can use this section for your side projects. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim."
+        title = "Homey Kodi"
+        meta = "Open source"
+        url = "https://github.com/MarvinSchenkel/HomeyKodi"
+        tagline = "I built a driver that integrates Kodi into Homey back when I used Homey to automate my home. It allows users to easily automate their home based on Kodi actions and events."
 
 
     [params.social]
