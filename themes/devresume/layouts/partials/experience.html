@@ -12,6 +12,11 @@
                                     <div class="text-left text-muted item-meta">{{ .company }}</div>
                                     <div class="item-content">
                                         <p>{{ with .details }}{{ . | markdownify }}{{ end }}</p>
+                                        {{ if .skills }}
+                                        <div>
+                                            <p><b>Technologies:</b> {{ with .skills }}{{ . | markdownify }}{{ end }}</p>
+                                        </div><!--//skills-->
+                                        {{ end }}
                                         <ul class="resume-list">
                                             {{ range .items }}
                                             <li>{{ with .details }}{{ . | markdownify }}{{ end }}</li>
