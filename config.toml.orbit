@@ -1,0 +1,266 @@
+# Page settings
+
+baseurl = "/"
+languageCode = "en-us"
+title = "Marvin Schenkel"
+theme = "orbit"
+googleAnalytics = "UA-XXXXXXX-Y"
+
+# Do not build files for websites. Need them? Set to false
+disableRSS = true
+disableSitemap = true
+disable404 = true
+
+[params]
+
+# Meta
+    description = "Marvin Schenkel CV"
+    title = "Marvin Schenkel"
+    author = "Marvin Schenkel"
+
+# Theme styles
+
+    # The original template comes with 6 colour schemes. You may choose styles below.
+    # "styles.css", "styles-2.css", "styles-3.css", "styles-4.css", "styles-5.css", "styles-6.css"
+    # are available. Also the source LESS files are included so
+    # it’s quick and easy to change the styling and colour scheme.
+
+    styles = "styles-2.css"
+
+# Sidebar sections
+
+    # Profile section
+    [params.profile]
+        name = "Marvin Schenkel"
+        tagline = ""
+        avatar = "marvin.png"
+
+    # Contact section
+    [params.contact]
+        enable = true
+
+        [[params.contact.list]]
+        class = "email"
+        icon = "fa-envelope"
+        url = "mailto: marvin@schenkel.dev"
+        title = "marvin@schenkel.dev"
+
+        [[params.contact.list]]
+        class = "phone"
+        icon = "fa-phone"
+        url = "tel:+31(0)611090127"
+        title = "+31(0)611090127"
+
+        [[params.contact.list]]
+        class = "website"
+        icon = "fa-globe"
+        url = "//schenkel.dev"
+        title = "schenkel.dev"
+
+        [[params.contact.list]]
+        class = "linkedin"
+        icon = "fa-linkedin"
+        url = "//linkedin.com/in/marvinschenkel"
+        title = "marvinschenkel"
+
+        [[params.contact.list]]
+        class = "github"
+        icon = "fa-github"
+        url = "//github.com/MarvinSchenkel"
+        title = "MarvinSchenkel"
+
+    # Education section
+    [params.education]
+        enable = true 
+        title = "Education"
+
+        [[params.education.list]]
+        degree = "BSc in Computer Science (cum laude)"
+        college = "HU University of Applied Sciences Utrecht"
+        dates = "2009 - 2012"
+
+        [[params.education.list]]
+        degree = "Certificate of Excellence"
+        college = "HU University of Applied Sciences Utrecht"
+        dates = "2012"
+ 
+    # Certificates section
+    [params.certificates]
+        enable = true 
+        title = "Certificates"
+
+        [[params.certificates.list]]
+        certificate = "Databricks Lakehouse Fundamentals"
+        college = "Databricks"
+
+        [[params.certificates.list]]
+        certificate = "Microsoft Certified: Azure Data Engineer Associate"
+        college = "Microsoft"
+
+        [[params.certificates.list]]
+        certificate = "Coursera: Machine Learning"
+        college = "Coursera"
+
+    # Languages section
+    [params.language]
+        enable = true
+        title = "Languages"
+
+        [[params.language.list]]
+        language = "Dutch"
+        level = "Native"
+
+        [[params.language.list]]
+        language = "English"
+        level = "Professional"
+
+    # Interests section
+    [params.interests]
+        enable = true
+        title = "Interests"
+
+        [[params.interests.list]]
+        interest = "Home Automation"
+
+        [[params.interests.list]]
+        interest = "Music"
+
+        [[params.interests.list]]
+        interest = "Home Barista"
+
+        [[params.interests.list]]
+        interest = "Cooking"
+
+# Main body sections
+
+    # You may use markdown in summary, details and intro fields. But don't overdose, it's resume!:)
+
+    # Summary section
+    [params.summary]
+        enable = true
+        icon = "fa-user"
+        title = "About me"
+        summary = "I remember my first computer experience: sitting on my dad's lap as a 6-year-old and typing basic DOS-commands like `cd games` to start my favourite games. Now, 25-ish years later I am still using those commands to find my way while building data solutions. My passion is working on challenging data solutions in cloud environments, trying to apply software engineering best practices to everything I do. I have over 12 years of experience working on data (platform) engineering, data science and BI related projects for various clients in both Europe and Australia, such as Ahold Delhaize, Nationale-Nederlanden, Transavia, ASSA ABLOY and Jetstar Airways (AU)."
+
+    # Experiences section
+    [params.experiences]
+        enable = true
+        icon = "fa-briefcase"
+        title = "Relevant Experiences"
+        
+        [[params.jobs.list]]
+        position = "Lead Data Platform Engineer (freelance)"
+        dates = "Feb 2023 - Present"
+        company = "Ahold Delhaize, Zaandam"
+        details = "Ahold Delhaize are a leader in supermarkets, and e-commerce and a company at the forefront of sustainable retailing. Each of their brands shares a passion for delivering great food, value and innovations. At Ahold Delhaize I am part of a team that builds the core self-service data platform. We have many customers, such as Albert Heijn, Gall&Gall and Etos, that use our platform to easily ingest and transform their data in a config-driven way to process billions of rows on a daily basis. It has been my role to lead and coach the team, provide designs and solution architecture for new features and, of course, also engineer them."
+        skills = "Azure, Python, Azure Databricks, Terraform, Spark, Github"
+
+        [[params.jobs.list]]
+        position = "Lead Data Platform Engineer (via Riviq)"
+        dates = "Nov 2021 - Jan 2023"
+        company = "Nationale Nederlanden, The Hague"
+        details = "As a Lead Data Platform Engineer at NN, I have been involved in the NNDAP project (NN Data Analytics Platform). NNDAP is a microservices based software product that aims to provide a data platform blueprint for every business unit of NN, maximising efficiency and minimising repetitive work. With NNDAP, business units can easily provision a brand new data platform and deploy modules to it, such as a Data Extraction module, Data Ingestion module, Data Quality module and many more. All the modules can be flexibly configured via config-as-code, making sure deployment from development all the way to production is a breeze. Furthermore, NNDAP is proudly part of the 'Innersourcing' initiative (open-source within NN), allowing all engineers to contribute to the codebase of NNDAP."
+        skills = "Azure, Python, fastapi, great_expectations, Azure Data Factory, Azure Databricks, Terraform, Azure Functions, Docker, Azure Pipelines"
+
+        [[params.jobs.list]]
+        position = "Lead Data Engineer (via Riviq)"
+        dates = "Mar 2020 - Nov 2021"
+        company = "Transavia, Amsterdam"
+        details = "At Transavia, I have coached a team of data engineers and scientists at building a professional data platform using a broad range of products in Microsoft Azure. Some of the highlights of this project were introducing dbt to take care of the business logic in the data warehouse, migrating Airflow to Azure Kubernetes Service and setting up an MLOps framework to help the data scientists to easily deploy their ML models into production."
+        skills = "Azure, Python, Airflow, dbt, Azure ML, Bicep, Azure Data Factory, Azure Databricks, Azure Kubernetes Service, Data modeling, Azure Pipelines"
+
+        [[params.jobs.list]]
+        position = "Lead Data Engineer"
+        dates = "Feb 2020 - Jan 2023"
+        company = "Riviq, The Hague"
+        details = "Riviq is a consultancy company that help its clients to transform data into valuable insights. As a Lead Data Engineer I am involved in various data related projects, fulfilling roles such as Lead Data Engineer, Senior Data Engineer and Solution architect."
+
+        [[params.jobs.list]]
+        position = "Data Scientist"
+        dates = "Apr 2019 - Feb 2020"
+        company = "Performation, Bilthoven"
+        details = "Performation HOTflo is specialised in data solutions for hospitals. The heart of these data solutions is the data gateway: a data warehouse that connects multiple source systems in a standardized way. This is where I came in, it was my task to design, develop and use an AI platform on top of the data gateway. This platform enabled us data scientist to easily access various sources of data for building our predictive models."
+        skills = "Python, SQL Server, Docker, Jupyter Hub, Various ML modeling techniques"
+
+        [[params.jobs.list]]
+        position = "Senior Information Management Consultant"
+        dates = "Apr 2016 - Jan 2018"
+        company = "Infoready, Melbourne, Australia"
+        details = "As a Senior IM Consultant, I have been involved in a wide range of data integration-, data warehousing- and data science-related projects where I took on various roles like technical engineer, technical team lead, modeler, architect and business analyst. Besides this, I also helped our sales colleagues with pre-sales work."
+        skills = "Azure, AWS, SQL Server, MSBI Stack: SSIS, SSAS, SSRS, BIML, Power BI, Data modeling"
+
+        [[params.jobs.list]]
+        position = "Data Solutions (BI) Consultant"
+        dates = "Jul 2012 - Apr 2016, Jan 2018 - Apr 2019"
+        company = "Info Support, Veenendaal"
+        details = "As a Data Solutions (BI) Consultant at Info Support, I participated in various data warehousing projects for a wide variety of clients."
+        skills = "SQL Server, MSBI Stack: SSIS, SSAS, SSRS, BIML, Data Vault"
+
+
+    # Projects section
+    [params.projects]
+        enable = true
+        icon = "fa-archive"
+        title = "Projects"
+        intro = "In my free time I like to spend time automating my home or contributing to open-source projects. This is an overview of open-source projects I set up myself or am actively involved in."
+
+        [[params.projects.list]]
+        title = "Home Assistant"
+        url = "https://github.com/MarvinSchenkel/home-assistant-config"
+        tagline = "I use Home Assistant to build my smart home. This repository contains my Home Assistant configuration, which everyone can use to get inspired to start automating their homes."
+
+        [[params.projects.list]]
+        title = "Music Assistant"
+        url = "https://github.com/music-assistant/hass-music-assistant"
+        tagline = "Music Assistant turns any Home Assistant instance into a jukebox, hassle free streaming of your favourite media to Home Assistant media players."
+
+        [[params.projects.list]]
+        title = "Homey Kodi"
+        url = "https://github.com/MarvinSchenkel/HomeyKodi"
+        tagline = "I built a driver that integrates Kodi into Homey back when I used Homey to automate my home. It allows users to easily automate their home based on Kodi actions and events."
+
+
+    # Skills section
+    [params.skills]
+        enable = false
+        icon = "fa-rocket"
+        title = "Skills & Proficiency"
+
+        [[params.skills.list]]
+        skill = "SQL"
+        level = "98%"
+
+        [[params.skills.list]]
+        skill = "Python"
+        level = "95%"
+
+        [[params.skills.list]]
+        skill = "Azure"
+        level = "95%"
+
+        [[params.skills.list]]
+        skill = "dbt"
+        level = "95%"
+
+        [[params.skills.list]]
+        skill = "Airflow"
+        level = "80%"
+
+    # Know-how section
+    [params.knowhow]
+    enable = false
+    icon = "fa-rocket"
+    title = "Know-how"
+    list = ["Software Development"]
+
+    # Footer section
+
+    # The original template is released under the Creative Commons Attribution 3.0 License.
+    # Please keep the original attribution link when using for your own project.
+    # If you'd like to use the template without the attribution,
+    # you can check out other license options via template author's website: themes.3rdwavemedia.com
+    #
+    # As for Hugo port you may rewrite the "Ported for..." line with setting your name below.
+
+    [params.footer]
+        copyright = "Marvin Schenkel"
