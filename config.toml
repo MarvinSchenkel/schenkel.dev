@@ -97,11 +97,23 @@ googleAnalytics = "UA-XXXXXXX-Y"
         enable = true
 
         [[params.experience.list]]
+        title = "Senior Data Platform Engineer (freelance)"
+        dates = "Nov 2024 - Present"
+        company = "Nationale Nederlanden, The Hague"
+        details = """\
+        When NN approached me to re-join the data platform project I was more than excited. It is not often that you get the opportunity to revisit an environment you helped design from the ground up. 
+
+        In this role I helped NN to take the NNDAP product to next level. I was responsible for designing and implementing several new features as well as coaching the team. Projects I worked on include:
+        - Setting up centralised logging using Azure App Insights and OpenTelemetry
+        - Designing and implementing an API to accommodate self-service management of Unity Catalog objects"""
+        skills = "Azure, Python, Azure Databricks, Unity Catalog, Bicep, Application Insights, OpenTelemetry, App Service, fastapi"
+
+        [[params.experience.list]]
         title = "Lead Data Platform Engineer (freelance)"
-        dates = "Feb 2023 - Present"
+        dates = "Feb 2023 - Nov 2024"
         company = "Ahold Delhaize, Zaandam"
         details = "Ahold Delhaize are a leader in supermarkets, and e-commerce and a company at the forefront of sustainable retailing. Each of their brands shares a passion for delivering great food, value and innovations. At Ahold Delhaize I am part of a team that builds the core self-service data platform. We have many customers, such as Albert Heijn, Gall&Gall and Etos, that use our platform to easily ingest and transform their data in a config-driven way to process billions of rows on a daily basis. It has been my role to lead and coach the team, provide designs and solution architecture for new features and, of course, also engineer them."
-        skills = "Azure, Python, Azure Databricks, Terraform, Spark, Github"
+        skills = "Azure, Python, Azure Databricks, Unity Catalog, Terraform, Spark, Github"
 
         [[params.experience.list]]
         title = "Lead Data Platform Engineer (via Riviq)"
