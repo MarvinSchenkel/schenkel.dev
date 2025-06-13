@@ -103,9 +103,9 @@ googleAnalytics = "UA-XXXXXXX-Y"
         details = """\
         When NN approached me to re-join the data platform project I was more than excited. It is not often that you get the opportunity to revisit an environment you helped design from the ground up. 
 
-        In this role I helped NN to take the NNDAP product to next level. I was responsible for designing and implementing several new features as well as coaching the team. Projects I worked on include:
-        - Setting up centralised logging using Azure App Insights and OpenTelemetry
-        - Designing and implementing an API to accommodate self-service management of Unity Catalog objects"""
+In this role I helped NN to take the NNDAP product to next level. I was responsible for designing and implementing several new features as well as coaching the team. Projects I worked on include:
+- Setting up centralised logging using Azure App Insights and OpenTelemetry
+- Designing and implementing an API to accommodate self-service management of Unity Catalog objects"""
         skills = "Azure, Python, Azure Databricks, Unity Catalog, Bicep, Application Insights, OpenTelemetry, App Service, fastapi"
 
         [[params.experience.list]]
